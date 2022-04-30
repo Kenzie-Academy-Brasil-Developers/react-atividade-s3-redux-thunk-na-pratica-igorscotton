@@ -3,7 +3,7 @@ import { addMessageThunk } from "../../store/modules/user/thunk";
 import { useState } from "react";
 
 const Message = () => {
-  const [comment, setComment] = useState();
+  const [comment, setComment] = useState('');
 
   const dispatch = useDispatch();
 
